@@ -71,8 +71,29 @@ return {
             requireOnDuty = true,
             classes = {},
             vehicles = {
-                [`police`] = true,  -- Vehicle model
-                [`police2`] = true, -- Vehicle model
+                [`fbi`] = true,         -- FIB
+                [`fbi2`] = true,        -- FIB SUV
+                [`pbus`] = true,        -- Police Prison Bus
+                [`polbuffalo`] = true,  -- Buffalo Cruiser
+                [`polbuffalo6`] = true, -- Buffalo STX Pursuit
+                [`polgauntlet`] = true, -- Gauntlet Interceptor
+                [`police`] = true,      -- Police Cruiser
+                [`police2`] = true,     -- Police Cruiser
+                [`police3`] = true,     -- Police Cruiser
+                [`police4`] = true,     -- Unmarked Cruiser
+                [`police5`] = true,     -- Stanier LE Cruiser
+                [`policeb`] = true,     -- Police Bike
+                [`policeb2`] = true,    -- Police Bike
+                [`policeold1`] = true,  -- Police Rancher
+                [`policeold2`] = true,  -- Police Roadcruiser
+                [`policet`] = true,     -- Police Transporter
+                [`pranger`] = true,     -- Park Ranger
+                [`riot`] = true,        -- Police Riot
+                [`riot2`] = true,       -- RCV
+                [`sheriff`] = true,     -- Sheriff Cruiser
+                [`sheriff2`] = true,    -- Sheriff SUV
+                [`polmav`] = true,      -- Police Maverick
+                [`predator`] = true,    -- Police Predator
             }
         },
         ambulance = {
@@ -81,12 +102,13 @@ return {
             classes = {},
             vehicles = {
                 [`ambulance`] = true,
+                [`polmav`] = true,    -- EMS Helicopter
             },
         },
         mechanic = {
             requireOnDuty = false,
             vehicles = {
-                [`towtruck`] = true,
+                [`towtruck`] = false,
             }
         }
     },
