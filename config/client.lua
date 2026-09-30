@@ -106,9 +106,12 @@ return {
             },
         },
         mechanic = {
-            requireOnDuty = false,
+            requireOnDuty = true,
             vehicles = {
-                [`towtruck`] = false,
+                [`towtruck`] = true,
+                [`towtruck2`] = true,
+                [`towtruck3`] = true,
+                [`towtruck4`] = true,
             }
         }
     },
